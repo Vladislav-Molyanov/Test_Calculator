@@ -37,7 +37,7 @@ public class Main {
                 break;
             case "/":
                 if (operandTwo == 0) {
-                    throw new ArithmeticException("Деление на 0 не возможно");
+                    throw new ArithmeticException("Деление на 0 невозможно");
                 }
                 calc = operandOne / operandTwo;
                 break;
